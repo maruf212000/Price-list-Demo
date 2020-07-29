@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Price Listing</title>
+        <style>
+            h3{
+                background-color: rgb(34, 109, 190);
+                color: white;
+                font-size: 40px;
+                text-align: center;
+                width: 40%;
+                position: relative;
+                left: 30%;
+                transform: translateY(135%);
+            }
+            .container
+            {
+                float: left;
+                width: 25%;
+                text-align: center;
+            }
+            .list ul{
+                list-style: none;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                width: 100%;
+                padding: 0;
+                border: 1px solid grey;
+            }
+            .list ul li{
+                padding: 15px;
+                font-size: 25px;
+                border-bottom: 1px solid grey;
+               
+            }
+            .grey
+            {
+                background-color: #E7E7E7;
+            }
+            .white
+            {
+                background-color: white;
+            }
+            .active
+            {
+                background-color: #34495E;
+                border-color: #34495E;
+                color: white;
+            }
+            button{
+                font-size: 40px;
+                background-color: rgb(34, 109, 190);
+                color: white;
+                border-color: rgb(34, 109, 190);
+                transform: translateY(70%);
+                font-weight: bold;
+            }
+            @media only screen and (max-width: 1028px) {
+                .container {
+                    float: none;
+                    width: 100%;
+                    }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Starter</h3>
+            <div class="list">
+                <ul>
+                    <li class="white" style="padding: 10%;">$4.99 / year</li>
+                    <li class="grey">10 GB storage</li>
+                    <li class="white">10 Emails</li>
+                    <li class="grey">10 Domains</li>
+                    <li class="white">1GB Bandwidth</li>
+                    <li class="grey button"><button>Select Plan</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Starter</h3>
+            <div class="list">
+                <ul>
+                    <li class="white" style="padding: 10%;">$4.99 / year</li>
+                    <li class="grey">10 GB storage</li>
+                    <li class="white">10 Emails</li>
+                    <li class="grey">10 Domains</li>
+                    <li class="white">1GB Bandwidth</li>
+                    <li class="grey button"><button>Select Plan</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Starter</h3>
+            <div class="list">
+                <ul>
+                    <li class="white active active" style="padding: 10%;">$4.99 / year</li>
+                    <li class="grey active">10 GB storage</li>
+                    <li class="white active">10 Emails</li>
+                    <li class="grey active">10 Domains</li>
+                    <li class="white active">1GB Bandwidth</li>
+                    <li class="grey active button"><button>Select Plan</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Starter</h3>
+            <div class="list">
+                <ul >
+                    <li class="white" style="padding: 10%;">$4.99 / year</li>
+                    <li class="grey">10 GB storage</li>
+                    <li class="white">10 Emails</li>
+                    <li class="grey">10 Domains</li>
+                    <li class="white">1GB Bandwidth</li>
+                    <li class="grey button"><button>Select Plan</button></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
